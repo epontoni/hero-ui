@@ -30,6 +30,22 @@ button {
     margin: 24px auto 0 auto;
 }
 
+header {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    display: inline-block;
+}
+
+.highlight {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 65%, white 65%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .hero {
     
 }
@@ -96,7 +112,7 @@ button {
     }
 
     .hero-container-img {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 7.5% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
     }
 
     .hero-container-img img {
